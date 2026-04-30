@@ -1,10 +1,10 @@
-# 🚁 RL Drone Docking — Precision Landing with Deep Reinforcement Learning
+# RL Drone Docking — Precision Landing with Deep Reinforcement Learning
 
 > **Autonomous UAV precision landing using DDPG and SAC algorithms in PX4/Gazebo/ROS2 simulation**
 
 ---
 
-## 📖 Table of Contents
+## Table of Contents
 
 - [Overview](#overview)
 - [System Architecture](#system-architecture)
