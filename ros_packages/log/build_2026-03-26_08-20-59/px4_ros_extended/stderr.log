@@ -1,0 +1,6 @@
+c++: fatal error: Killed signal terminated program cc1plus
+compilation terminated.
+make[2]: *** [CMakeFiles/env.dir/build.make:76: CMakeFiles/env.dir/src_cpp/env.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:113: CMakeFiles/env.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make: *** [Makefile:146: all] Error 2

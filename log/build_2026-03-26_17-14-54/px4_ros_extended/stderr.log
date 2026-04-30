@@ -1,0 +1,21 @@
+make[2]: *** [CMakeFiles/env.dir/build.make:76: CMakeFiles/env.dir/src_cpp/env.cpp.o] Interrupt
+Traceback (most recent call last):
+  File "/usr/local/bin/cmake", line 8, in <module>
+make[2]: *** [CMakeFiles/baseline_prec_land.dir/build.make:76: CMakeFiles/baseline_prec_land.dir/src_cpp/baseline_prec_land.cpp.o] Interrupt
+make[1]: *** [CMakeFiles/Makefile2:113: CMakeFiles/env.dir/all] Interrupt
+make[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/baseline_prec_land.dir/all] Interrupt
+    sys.exit(cmake())
+  File "/usr/local/lib/python3.8/dist-packages/cmake/__init__.py", line 47, in cmake
+    raise SystemExit(_program('cmake', sys.argv[1:]))
+  File "/usr/local/lib/python3.8/dist-packages/cmake/__init__.py", line 43, in _program
+    return subprocess.call([os.path.join(CMAKE_BIN_DIR, name)] + args)
+  File "/usr/lib/python3.8/subprocess.py", line 342, in call
+    return p.wait(timeout=timeout)
+  File "/usr/lib/python3.8/subprocess.py", line 1083, in wait
+    return self._wait(timeout=timeout)
+  File "/usr/lib/python3.8/subprocess.py", line 1806, in _wait
+    (pid, sts) = self._try_wait(0)
+  File "/usr/lib/python3.8/subprocess.py", line 1764, in _try_wait
+    (pid, sts) = os.waitpid(self.pid, wait_flags)
+KeyboardInterrupt
+make: *** [Makefile:146: all] Interrupt

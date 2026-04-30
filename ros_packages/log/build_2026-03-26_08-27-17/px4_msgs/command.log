@@ -1,0 +1,4 @@
+Invoking command in '/src/shared/ros_packages/build/px4_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/local/bin/cmake --build /src/shared/ros_packages/build/px4_msgs
+Invoked command in '/src/shared/ros_packages/build/px4_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/local/bin/cmake --build /src/shared/ros_packages/build/px4_msgs
+Invoking command in '/src/shared/ros_packages/build/px4_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/local/bin/cmake --install /src/shared/ros_packages/build/px4_msgs
+Invoked command in '/src/shared/ros_packages/build/px4_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/local/bin/cmake --install /src/shared/ros_packages/build/px4_msgs

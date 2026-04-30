@@ -1,0 +1,65 @@
+[0.019s] Invoking command in '/src/shared/ros_packages/build/px4_ros_extended': AMENT_PREFIX_PATH=/src/shared/ros_packages/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/src/shared/ros_packages/install/px4_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/src/shared/ros_packages/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/src/shared/ros_packages/install/px4_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/local/bin/cmake /src/shared/ros_packages/px4_ros_extended -DCMAKE_INSTALL_PREFIX=/src/shared/ros_packages/install/px4_ros_extended
+[0.092s] -- The C compiler identification is GNU 9.3.0
+[0.147s] -- The CXX compiler identification is GNU 9.3.0
+[0.154s] -- Detecting C compiler ABI info
+[0.190s] -- Detecting C compiler ABI info - done
+[0.197s] -- Check for working C compiler: /usr/lib/ccache/cc - skipped
+[0.197s] -- Detecting C compile features
+[0.197s] -- Detecting C compile features - done
+[0.200s] -- Detecting CXX compiler ABI info
+[0.246s] -- Detecting CXX compiler ABI info - done
+[0.252s] -- Check for working CXX compiler: /usr/lib/ccache/c++ - skipped
+[0.252s] -- Detecting CXX compile features
+[0.252s] -- Detecting CXX compile features - done
+[0.257s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.279s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.279s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.481s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.528s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.534s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.631s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.666s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.741s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.797s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.799s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.802s] -- Looking for pthread.h
+[0.863s] -- Looking for pthread.h - found
+[0.863s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.934s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.934s] -- Looking for pthread_create in pthreads
+[0.969s] -- Looking for pthread_create in pthreads - not found
+[0.970s] -- Looking for pthread_create in pthread
+[1.008s] -- Looking for pthread_create in pthread - found
+[1.009s] -- Found Threads: TRUE  
+[1.147s] -- Found px4_msgs: 2.0.1 (/src/shared/ros_packages/install/px4_msgs/share/px4_msgs/cmake)
+[1.162s] -- Found gazebo_msgs: 3.5.3 (/opt/ros/foxy/share/gazebo_msgs/cmake)
+[1.375s] -- Found rclpy: 1.0.13 (/opt/ros/foxy/share/rclpy/cmake)
+[1.404s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.473s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.476s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.476s] -- Configured cppcheck include dirs: 
+[1.476s] -- Configured cppcheck exclude dirs and/or files: 
+[1.478s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.478s] -- Configured cpplint exclude dirs and/or files: 
+[1.479s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.479s] -- Added test 'lint_cmake' to check CMake code style
+[1.480s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.482s] -- Added test 'uncrustify' to check C / C++ code style
+[1.482s] -- Configured uncrustify additional arguments: 
+[1.483s] -- Added test 'xmllint' to check XML markup files
+[1.484s] -- Configuring done
+[1.498s] -- Generating done
+[1.503s] -- Build files have been written to: /src/shared/ros_packages/build/px4_ros_extended
+[1.515s] Invoked command in '/src/shared/ros_packages/build/px4_ros_extended' returned '0': AMENT_PREFIX_PATH=/src/shared/ros_packages/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/src/shared/ros_packages/install/px4_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/src/shared/ros_packages/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/src/shared/ros_packages/install/px4_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/local/bin/cmake /src/shared/ros_packages/px4_ros_extended -DCMAKE_INSTALL_PREFIX=/src/shared/ros_packages/install/px4_ros_extended
+[1.517s] Invoking command in '/src/shared/ros_packages/build/px4_ros_extended': AMENT_PREFIX_PATH=/src/shared/ros_packages/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/src/shared/ros_packages/install/px4_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/src/shared/ros_packages/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/src/shared/ros_packages/install/px4_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/local/bin/cmake --build /src/shared/ros_packages/build/px4_ros_extended -- -j16 -l16
+[1.569s] [ 25%] [32mBuilding CXX object CMakeFiles/env.dir/src_cpp/env.cpp.o[0m
+[1.569s] [ 50%] [32mBuilding CXX object CMakeFiles/baseline_prec_land.dir/src_cpp/baseline_prec_land.cpp.o[0m
+[35.962s] c++: fatal error: Killed signal terminated program cc1plus
+[35.969s] compilation terminated.
+[35.973s] make[2]: *** [CMakeFiles/env.dir/build.make:76: CMakeFiles/env.dir/src_cpp/env.cpp.o] Error 1
+[36.003s] make[1]: *** [CMakeFiles/Makefile2:113: CMakeFiles/env.dir/all] Error 2
+[36.005s] make[1]: *** Waiting for unfinished jobs....
+[80.238s] [ 75%] [32m[1mLinking CXX executable baseline_prec_land[0m
+[81.301s] [ 75%] Built target baseline_prec_land
+[81.328s] make: *** [Makefile:146: all] Error 2
+[82.097s] Invoked command in '/src/shared/ros_packages/build/px4_ros_extended' returned '2': AMENT_PREFIX_PATH=/src/shared/ros_packages/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/src/shared/ros_packages/install/px4_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/src/shared/ros_packages/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/src/shared/ros_packages/install/px4_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/local/bin/cmake --build /src/shared/ros_packages/build/px4_ros_extended -- -j16 -l16

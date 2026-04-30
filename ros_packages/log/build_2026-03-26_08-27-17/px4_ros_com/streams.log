@@ -1,0 +1,67 @@
+[0.015s] Invoking command in '/src/shared/ros_packages/build/px4_ros_com': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/local/bin/cmake --build /src/shared/ros_packages/build/px4_ros_com
+[0.073s] [35m[1mConsolidate compiler generated dependencies of target offboard_control[0m
+[0.086s] [  1%] [32mBuilding CXX object CMakeFiles/offboard_control.dir/src/examples/offboard/offboard_control.cpp.o[0m
+[5.631s] [  2%] [32m[1mLinking CXX executable offboard_control[0m
+[5.905s] [  2%] Built target offboard_control
+[5.916s] [35m[1mConsolidate compiler generated dependencies of target debug_vect_advertiser[0m
+[5.928s] [  4%] Built target debug_vect_advertiser
+[5.972s] [35m[1mConsolidate compiler generated dependencies of target micrortps_agent[0m
+[6.077s] [ 93%] Built target micrortps_agent
+[6.085s] [35m[1mConsolidate compiler generated dependencies of target frame_transforms[0m
+[6.101s] [ 95%] Built target frame_transforms
+[6.107s] [35m[1mConsolidate compiler generated dependencies of target sensor_combined_listener[0m
+[6.118s] [ 97%] Built target sensor_combined_listener
+[6.125s] [35m[1mConsolidate compiler generated dependencies of target vehicle_gps_position_listener[0m
+[6.137s] [100%] Built target vehicle_gps_position_listener
+[6.146s] Invoked command in '/src/shared/ros_packages/build/px4_ros_com' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/local/bin/cmake --build /src/shared/ros_packages/build/px4_ros_com
+[6.152s] Invoking command in '/src/shared/ros_packages/build/px4_ros_com': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/local/bin/cmake --install /src/shared/ros_packages/build/px4_ros_com
+[6.181s] -- Install configuration: ""
+[6.181s] -- Installing: /src/shared/ros_packages/install/px4_ros_com/lib/px4_ros_com/sensor_combined_listener
+[6.189s] -- Set runtime path of "/src/shared/ros_packages/install/px4_ros_com/lib/px4_ros_com/sensor_combined_listener" to ""
+[6.189s] -- Installing: /src/shared/ros_packages/install/px4_ros_com/lib/px4_ros_com/vehicle_gps_position_listener
+[6.196s] -- Set runtime path of "/src/shared/ros_packages/install/px4_ros_com/lib/px4_ros_com/vehicle_gps_position_listener" to ""
+[6.196s] -- Installing: /src/shared/ros_packages/install/px4_ros_com/lib/px4_ros_com/debug_vect_advertiser
+[6.204s] -- Set runtime path of "/src/shared/ros_packages/install/px4_ros_com/lib/px4_ros_com/debug_vect_advertiser" to ""
+[6.204s] -- Installing: /src/shared/ros_packages/install/px4_ros_com/lib/px4_ros_com/offboard_control
+[6.214s] -- Set runtime path of "/src/shared/ros_packages/install/px4_ros_com/lib/px4_ros_com/offboard_control" to ""
+[6.214s] -- Installing: /src/shared/ros_packages/install/px4_ros_com/share/px4_ros_com/environment/library_path.sh
+[6.214s] -- Installing: /src/shared/ros_packages/install/px4_ros_com/share/px4_ros_com/environment/library_path.dsv
+[6.215s] -- Installing: /src/shared/ros_packages/install/px4_ros_com/include/px4_ros_com
+[6.216s] -- Installing: /src/shared/ros_packages/install/px4_ros_com/include/px4_ros_com/frame_transforms.h
+[6.216s] -- Installing: /src/shared/ros_packages/install/px4_ros_com/share/px4_ros_com/cmake
+[6.216s] -- Installing: /src/shared/ros_packages/install/px4_ros_com/share/px4_ros_com/cmake/GenerateMicroRTPSAgent.cmake
+[6.216s] -- Installing: /src/shared/ros_packages/install/px4_ros_com/share/px4_ros_com/cmake/EnableSanitizers.cmake
+[6.217s] -- Installing: /src/shared/ros_packages/install/px4_ros_com/share/px4_ros_com/cmake/EnableC++XX.cmake
+[6.217s] -- Installing: /src/shared/ros_packages/install/px4_ros_com/lib/libframe_transforms.so
+[6.235s] -- Set runtime path of "/src/shared/ros_packages/install/px4_ros_com/lib/libframe_transforms.so" to ""
+[6.235s] -- Installing: /src/shared/ros_packages/install/px4_ros_com/bin/micrortps_agent
+[6.290s] -- Set runtime path of "/src/shared/ros_packages/install/px4_ros_com/bin/micrortps_agent" to ""
+[6.290s] -- Installing: /src/shared/ros_packages/install/px4_ros_com/share/px4_ros_com/launch
+[6.290s] -- Installing: /src/shared/ros_packages/install/px4_ros_com/share/px4_ros_com/launch/sensor_combined_listener.launch.py
+[6.291s] -- Installing: /src/shared/ros_packages/install/px4_ros_com/share/px4_ros_com/test
+[6.292s] -- Installing: /src/shared/ros_packages/install/px4_ros_com/share/px4_ros_com/test/pipeline_io_test.py
+[6.292s] -- Installing: /src/shared/ros_packages/install/px4_ros_com/share/px4_ros_com/test/test_input.py
+[6.293s] -- Installing: /src/shared/ros_packages/install/px4_ros_com/share/px4_ros_com/test/test_output.py
+[6.293s] -- Installing: /src/shared/ros_packages/install/px4_ros_com/share/px4_ros_com/test/__init__.py
+[6.293s] -- Installing: /src/shared/ros_packages/install/px4_ros_com/share/ament_index/resource_index/package_run_dependencies/px4_ros_com
+[6.293s] -- Installing: /src/shared/ros_packages/install/px4_ros_com/share/ament_index/resource_index/parent_prefix_path/px4_ros_com
+[6.294s] -- Installing: /src/shared/ros_packages/install/px4_ros_com/share/px4_ros_com/environment/ament_prefix_path.sh
+[6.294s] -- Installing: /src/shared/ros_packages/install/px4_ros_com/share/px4_ros_com/environment/ament_prefix_path.dsv
+[6.294s] -- Installing: /src/shared/ros_packages/install/px4_ros_com/share/px4_ros_com/environment/path.sh
+[6.294s] -- Installing: /src/shared/ros_packages/install/px4_ros_com/share/px4_ros_com/environment/path.dsv
+[6.295s] -- Installing: /src/shared/ros_packages/install/px4_ros_com/share/px4_ros_com/local_setup.bash
+[6.295s] -- Installing: /src/shared/ros_packages/install/px4_ros_com/share/px4_ros_com/local_setup.sh
+[6.295s] -- Installing: /src/shared/ros_packages/install/px4_ros_com/share/px4_ros_com/local_setup.zsh
+[6.296s] -- Installing: /src/shared/ros_packages/install/px4_ros_com/share/px4_ros_com/local_setup.dsv
+[6.296s] -- Installing: /src/shared/ros_packages/install/px4_ros_com/share/px4_ros_com/package.dsv
+[6.296s] -- Installing: /src/shared/ros_packages/install/px4_ros_com/share/ament_index/resource_index/packages/px4_ros_com
+[6.297s] -- Installing: /src/shared/ros_packages/install/px4_ros_com/share/px4_ros_com/cmake/export_frame_transformsExport.cmake
+[6.298s] -- Installing: /src/shared/ros_packages/install/px4_ros_com/share/px4_ros_com/cmake/export_frame_transformsExport-noconfig.cmake
+[6.298s] -- Installing: /src/shared/ros_packages/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.298s] -- Installing: /src/shared/ros_packages/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_targets-extras.cmake
+[6.299s] -- Installing: /src/shared/ros_packages/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.299s] -- Installing: /src/shared/ros_packages/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_libraries-extras.cmake
+[6.299s] -- Installing: /src/shared/ros_packages/install/px4_ros_com/share/px4_ros_com/cmake/px4_ros_comConfig.cmake
+[6.299s] -- Installing: /src/shared/ros_packages/install/px4_ros_com/share/px4_ros_com/cmake/px4_ros_comConfig-version.cmake
+[6.300s] -- Installing: /src/shared/ros_packages/install/px4_ros_com/share/px4_ros_com/package.xml
+[6.306s] Invoked command in '/src/shared/ros_packages/build/px4_ros_com' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/local/bin/cmake --install /src/shared/ros_packages/build/px4_ros_com

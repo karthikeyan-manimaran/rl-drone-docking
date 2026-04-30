@@ -1,0 +1,65 @@
+[35m[1mConsolidate compiler generated dependencies of target env[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/env.dir/src_cpp/env.cpp.o[0m
+[ 50%] [32m[1mLinking CXX executable env[0m
+[ 50%] Built target env
+[35m[1mConsolidate compiler generated dependencies of target baseline_prec_land[0m
+[100%] Built target baseline_prec_land
+-- Install configuration: ""
+-- Installing: /src/shared/ros_packages/install/px4_ros_extended/share/px4_ros_extended/environment/pythonpath.sh
+-- Installing: /src/shared/ros_packages/install/px4_ros_extended/share/px4_ros_extended/environment/pythonpath.dsv
+-- Installing: /src/shared/ros_packages/install/px4_ros_extended/lib/python3.8/site-packages/src_py
+-- Installing: /src/shared/ros_packages/install/px4_ros_extended/lib/python3.8/site-packages/src_py/test_env_wrapper.py
+-- Installing: /src/shared/ros_packages/install/px4_ros_extended/lib/python3.8/site-packages/src_py/ddpg_agent.py
+-- Installing: /src/shared/ros_packages/install/px4_ros_extended/lib/python3.8/site-packages/src_py/env_wrapper.py
+-- Installing: /src/shared/ros_packages/install/px4_ros_extended/lib/python3.8/site-packages/src_py/test_ddpg_agent.py
+-- Installing: /src/shared/ros_packages/install/px4_ros_extended/lib/python3.8/site-packages/src_py/rewards.py
+-- Installing: /src/shared/ros_packages/install/px4_ros_extended/lib/python3.8/site-packages/src_py/DDPG
+-- Installing: /src/shared/ros_packages/install/px4_ros_extended/lib/python3.8/site-packages/src_py/DDPG/models.py
+-- Installing: /src/shared/ros_packages/install/px4_ros_extended/lib/python3.8/site-packages/src_py/DDPG/utils.py
+-- Installing: /src/shared/ros_packages/install/px4_ros_extended/lib/python3.8/site-packages/src_py/DDPG/memory.py
+-- Installing: /src/shared/ros_packages/install/px4_ros_extended/lib/python3.8/site-packages/src_py/DDPG/ddpg.py
+-- Installing: /src/shared/ros_packages/install/px4_ros_extended/lib/python3.8/site-packages/src_py/DDPG/__init__.py
+-- Installing: /src/shared/ros_packages/install/px4_ros_extended/lib/python3.8/site-packages/src_py/gazebo_runner.py
+-- Installing: /src/shared/ros_packages/install/px4_ros_extended/lib/python3.8/site-packages/src_py/__init__.py
+-- Installing: /src/shared/ros_packages/install/px4_ros_extended/lib/python3.8/site-packages/src_py/params.yaml
+Listing '/src/shared/ros_packages/install/px4_ros_extended/lib/python3.8/site-packages/src_py'...
+Listing '/src/shared/ros_packages/install/px4_ros_extended/lib/python3.8/site-packages/src_py/DDPG'...
+Compiling '/src/shared/ros_packages/install/px4_ros_extended/lib/python3.8/site-packages/src_py/DDPG/__init__.py'...
+Compiling '/src/shared/ros_packages/install/px4_ros_extended/lib/python3.8/site-packages/src_py/DDPG/ddpg.py'...
+Compiling '/src/shared/ros_packages/install/px4_ros_extended/lib/python3.8/site-packages/src_py/DDPG/memory.py'...
+Compiling '/src/shared/ros_packages/install/px4_ros_extended/lib/python3.8/site-packages/src_py/DDPG/models.py'...
+Compiling '/src/shared/ros_packages/install/px4_ros_extended/lib/python3.8/site-packages/src_py/DDPG/utils.py'...
+Compiling '/src/shared/ros_packages/install/px4_ros_extended/lib/python3.8/site-packages/src_py/__init__.py'...
+Compiling '/src/shared/ros_packages/install/px4_ros_extended/lib/python3.8/site-packages/src_py/ddpg_agent.py'...
+Compiling '/src/shared/ros_packages/install/px4_ros_extended/lib/python3.8/site-packages/src_py/env_wrapper.py'...
+Compiling '/src/shared/ros_packages/install/px4_ros_extended/lib/python3.8/site-packages/src_py/gazebo_runner.py'...
+Compiling '/src/shared/ros_packages/install/px4_ros_extended/lib/python3.8/site-packages/src_py/rewards.py'...
+Compiling '/src/shared/ros_packages/install/px4_ros_extended/lib/python3.8/site-packages/src_py/test_ddpg_agent.py'...
+Compiling '/src/shared/ros_packages/install/px4_ros_extended/lib/python3.8/site-packages/src_py/test_env_wrapper.py'...
+-- Installing: /src/shared/ros_packages/install/px4_ros_extended/lib/px4_ros_extended/env
+-- Set runtime path of "/src/shared/ros_packages/install/px4_ros_extended/lib/px4_ros_extended/env" to ""
+-- Installing: /src/shared/ros_packages/install/px4_ros_extended/lib/px4_ros_extended/baseline_prec_land
+-- Set runtime path of "/src/shared/ros_packages/install/px4_ros_extended/lib/px4_ros_extended/baseline_prec_land" to ""
+-- Installing: /src/shared/ros_packages/install/px4_ros_extended/lib/px4_ros_extended/env_wrapper.py
+-- Installing: /src/shared/ros_packages/install/px4_ros_extended/lib/px4_ros_extended/ddpg_agent.py
+-- Installing: /src/shared/ros_packages/install/px4_ros_extended/lib/px4_ros_extended/test_ddpg_agent.py
+-- Installing: /src/shared/ros_packages/install/px4_ros_extended/lib/px4_ros_extended/gazebo_runner.py
+-- Installing: /src/shared/ros_packages/install/px4_ros_extended/lib/px4_ros_extended/test_env_wrapper.py
+-- Installing: /src/shared/ros_packages/install/px4_ros_extended/share/px4_ros_extended/launch
+-- Installing: /src/shared/ros_packages/install/px4_ros_extended/share/px4_ros_extended/launch/env_train.launch.py
+-- Installing: /src/shared/ros_packages/install/px4_ros_extended/share/px4_ros_extended/launch/env.launch.py
+-- Installing: /src/shared/ros_packages/install/px4_ros_extended/share/ament_index/resource_index/package_run_dependencies/px4_ros_extended
+-- Installing: /src/shared/ros_packages/install/px4_ros_extended/share/ament_index/resource_index/parent_prefix_path/px4_ros_extended
+-- Installing: /src/shared/ros_packages/install/px4_ros_extended/share/px4_ros_extended/environment/ament_prefix_path.sh
+-- Installing: /src/shared/ros_packages/install/px4_ros_extended/share/px4_ros_extended/environment/ament_prefix_path.dsv
+-- Installing: /src/shared/ros_packages/install/px4_ros_extended/share/px4_ros_extended/environment/path.sh
+-- Installing: /src/shared/ros_packages/install/px4_ros_extended/share/px4_ros_extended/environment/path.dsv
+-- Installing: /src/shared/ros_packages/install/px4_ros_extended/share/px4_ros_extended/local_setup.bash
+-- Installing: /src/shared/ros_packages/install/px4_ros_extended/share/px4_ros_extended/local_setup.sh
+-- Installing: /src/shared/ros_packages/install/px4_ros_extended/share/px4_ros_extended/local_setup.zsh
+-- Installing: /src/shared/ros_packages/install/px4_ros_extended/share/px4_ros_extended/local_setup.dsv
+-- Installing: /src/shared/ros_packages/install/px4_ros_extended/share/px4_ros_extended/package.dsv
+-- Installing: /src/shared/ros_packages/install/px4_ros_extended/share/ament_index/resource_index/packages/px4_ros_extended
+-- Installing: /src/shared/ros_packages/install/px4_ros_extended/share/px4_ros_extended/cmake/px4_ros_extendedConfig.cmake
+-- Installing: /src/shared/ros_packages/install/px4_ros_extended/share/px4_ros_extended/cmake/px4_ros_extendedConfig-version.cmake
+-- Installing: /src/shared/ros_packages/install/px4_ros_extended/share/px4_ros_extended/package.xml

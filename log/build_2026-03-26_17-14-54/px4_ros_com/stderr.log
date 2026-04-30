@@ -1,0 +1,42 @@
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
+openjdk version "1.8.0_292"
+OpenJDK Runtime Environment (build 1.8.0_292-8u292-b10-0ubuntu1~20.04-b10)
+OpenJDK 64-Bit Server VM (build 25.292-b10, mixed mode)
+make[2]: *** [CMakeFiles/micrortps_agent.dir/build.make:916: CMakeFiles/micrortps_agent.dir/src/micrortps_agent/VehicleCommandPubSubTypes.cpp.o] Interrupt
+make[2]: *** [CMakeFiles/offboard_control.dir/build.make:76: CMakeFiles/offboard_control.dir/src/examples/offboard/offboard_control.cpp.o] Interrupt
+make[2]: *** [CMakeFiles/micrortps_agent.dir/build.make:538: CMakeFiles/micrortps_agent.dir/src/micrortps_agent/microRTPS_timesync.cpp.o] Interrupt
+make[2]: *** [CMakeFiles/micrortps_agent.dir/build.make:776: CMakeFiles/micrortps_agent.dir/src/micrortps_agent/PositionSetpointPubSubTypes.cpp.o] Interrupt
+make[2]: *** [CMakeFiles/micrortps_agent.dir/build.make:804: CMakeFiles/micrortps_agent.dir/src/micrortps_agent/PositionSetpointTripletPubSubTypes.cpp.o] Interrupt
+make[2]: *** [CMakeFiles/micrortps_agent.dir/build.make:832: CMakeFiles/micrortps_agent.dir/src/micrortps_agent/TelemetryStatusPubSubTypes.cpp.o] Interrupt
+make[2]: *** [CMakeFiles/micrortps_agent.dir/build.make:944: CMakeFiles/micrortps_agent.dir/src/micrortps_agent/VehicleLocalPositionSetpointPubSubTypes.cpp.o] Interrupt
+make[2]: *** [CMakeFiles/micrortps_agent.dir/build.make:986: CMakeFiles/micrortps_agent.dir/src/micrortps_agent/VehicleTrajectoryWaypoint.cpp.o] Interrupt
+make[1]: *** [CMakeFiles/Makefile2:95: CMakeFiles/offboard_control.dir/all] Interrupt
+Traceback (most recent call last):
+  File "/usr/local/bin/cmake", line 8, in <module>
+make[2]: *** [CMakeFiles/micrortps_agent.dir/build.make:1000: CMakeFiles/micrortps_agent.dir/src/micrortps_agent/VehicleTrajectoryWaypointPubSubTypes.cpp.o] Interrupt
+    sys.exit(cmake())
+  File "/usr/local/lib/python3.8/dist-packages/cmake/__init__.py", line 47, in cmake
+    raise SystemExit(_program('cmake', sys.argv[1:]))
+  File "/usr/local/lib/python3.8/dist-packages/cmake/__init__.py", line 43, in _program
+    return subprocess.call([os.path.join(CMAKE_BIN_DIR, name)] + args)
+  File "/usr/lib/python3.8/subprocess.py", line 342, in call
+    return p.wait(timeout=timeout)
+  File "/usr/lib/python3.8/subprocess.py", line 1083, in wait
+    return self._wait(timeout=timeout)
+  File "/usr/lib/python3.8/subprocess.py", line 1806, in _wait
+    (pid, sts) = self._try_wait(0)
+  File "/usr/lib/python3.8/subprocess.py", line 1764, in _try_wait
+    (pid, sts) = os.waitpid(self.pid, wait_flags)
+KeyboardInterrupt
+make[2]: *** [CMakeFiles/micrortps_agent.dir/build.make:552: CMakeFiles/micrortps_agent.dir/src/micrortps_agent/RtpsTopics.cpp.o] Interrupt
+make[2]: *** [CMakeFiles/micrortps_agent.dir/build.make:888: CMakeFiles/micrortps_agent.dir/src/micrortps_agent/TrajectoryBezierPubSubTypes.cpp.o] Interrupt
+make[2]: *** [CMakeFiles/micrortps_agent.dir/build.make:972: CMakeFiles/micrortps_agent.dir/src/micrortps_agent/VehicleTrajectoryBezierPubSubTypes.cpp.o] Interrupt
+make[2]: *** [CMakeFiles/micrortps_agent.dir/build.make:510: CMakeFiles/micrortps_agent.dir/src/micrortps_agent/microRTPS_agent.cpp.o] Interrupt
+make[2]: *** [CMakeFiles/micrortps_agent.dir/build.make:860: CMakeFiles/micrortps_agent.dir/src/micrortps_agent/TimesyncPubSubTypes.cpp.o] Interrupt
+make[2]: *** [CMakeFiles/frame_transforms.dir/build.make:76: CMakeFiles/frame_transforms.dir/src/lib/frame_transforms.cpp.o] Interrupt
+make[1]: *** [CMakeFiles/Makefile2:173: CMakeFiles/micrortps_agent.dir/all] Interrupt
+make[1]: *** [CMakeFiles/Makefile2:225: CMakeFiles/frame_transforms.dir/all] Interrupt
+make[2]: *** [CMakeFiles/sensor_combined_listener.dir/build.make:76: CMakeFiles/sensor_combined_listener.dir/src/examples/listeners/sensor_combined_listener.cpp.o] Interrupt
+make[1]: *** [CMakeFiles/Makefile2:251: CMakeFiles/sensor_combined_listener.dir/all] Interrupt
+make: *** [Makefile:146: all] Interrupt

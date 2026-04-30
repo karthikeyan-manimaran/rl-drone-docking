@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-96820d42a049b1d5aaa4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "px4_ros_extended",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "baseline_prec_land::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-baseline_prec_land-4bec6f89a81abe304938.json",
+					"name" : "baseline_prec_land",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "env::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-env-eafdadb3514c8cc71058.json",
+					"name" : "env",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "px4_ros_extended_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-px4_ros_extended_uninstall-1d0ebf7e10215b4c30f3.json",
+					"name" : "px4_ros_extended_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-7ca16ff1f9096b6491c3.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/src/shared/build/px4_ros_extended",
+		"source" : "/src/shared/ros_packages/px4_ros_extended"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

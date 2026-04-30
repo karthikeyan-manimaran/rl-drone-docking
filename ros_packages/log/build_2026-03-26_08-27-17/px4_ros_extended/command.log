@@ -1,0 +1,4 @@
+Invoking command in '/src/shared/ros_packages/build/px4_ros_extended': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/local/bin/cmake --build /src/shared/ros_packages/build/px4_ros_extended
+Invoked command in '/src/shared/ros_packages/build/px4_ros_extended' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/local/bin/cmake --build /src/shared/ros_packages/build/px4_ros_extended
+Invoking command in '/src/shared/ros_packages/build/px4_ros_extended': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/local/bin/cmake --install /src/shared/ros_packages/build/px4_ros_extended
+Invoked command in '/src/shared/ros_packages/build/px4_ros_extended' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/local/bin/cmake --install /src/shared/ros_packages/build/px4_ros_extended

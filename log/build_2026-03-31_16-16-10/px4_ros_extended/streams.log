@@ -1,0 +1,77 @@
+[0.047s] Invoking command in '/src/shared/build/px4_ros_extended': AMENT_PREFIX_PATH=/src/shared/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/src/shared/install/px4_msgs:/src/shared/ros_packages/install/px4_ros_extended:/src/shared/ros_packages/install/px4_ros_com:/src/shared/ros_packages/install/px4_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/src/shared/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/src/shared/install/px4_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/local/bin/cmake --build /src/shared/build/px4_ros_extended -- -j16 -l16
+[0.178s] [35m[1mConsolidate compiler generated dependencies of target env[0m
+[0.178s] [35m[1mConsolidate compiler generated dependencies of target baseline_prec_land[0m
+[0.268s] [ 25%] [32mBuilding CXX object CMakeFiles/baseline_prec_land.dir/src_cpp/baseline_prec_land.cpp.o[0m
+[0.269s] [ 50%] [32mBuilding CXX object CMakeFiles/env.dir/src_cpp/env.cpp.o[0m
+[135.972s] [ 75%] [32m[1mLinking CXX executable baseline_prec_land[0m
+[136.849s] [ 75%] Built target baseline_prec_land
+[144.317s] [100%] [32m[1mLinking CXX executable env[0m
+[145.361s] [100%] Built target env
+[145.992s] Invoked command in '/src/shared/build/px4_ros_extended' returned '0': AMENT_PREFIX_PATH=/src/shared/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/src/shared/install/px4_msgs:/src/shared/ros_packages/install/px4_ros_extended:/src/shared/ros_packages/install/px4_ros_com:/src/shared/ros_packages/install/px4_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/src/shared/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/src/shared/install/px4_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/local/bin/cmake --build /src/shared/build/px4_ros_extended -- -j16 -l16
+[146.134s] Invoking command in '/src/shared/build/px4_ros_extended': AMENT_PREFIX_PATH=/src/shared/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/src/shared/install/px4_msgs:/src/shared/ros_packages/install/px4_ros_extended:/src/shared/ros_packages/install/px4_ros_com:/src/shared/ros_packages/install/px4_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/src/shared/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/src/shared/install/px4_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/local/bin/cmake --install /src/shared/build/px4_ros_extended
+[146.350s] -- Install configuration: ""
+[146.351s] -- Installing: /src/shared/install/px4_ros_extended/share/px4_ros_extended/environment/pythonpath.sh
+[146.351s] -- Installing: /src/shared/install/px4_ros_extended/share/px4_ros_extended/environment/pythonpath.dsv
+[146.352s] -- Installing: /src/shared/install/px4_ros_extended/lib/python3.8/site-packages/src_py
+[146.353s] -- Installing: /src/shared/install/px4_ros_extended/lib/python3.8/site-packages/src_py/sac_agent.py
+[146.353s] -- Installing: /src/shared/install/px4_ros_extended/lib/python3.8/site-packages/src_py/test_env_wrapper.py
+[146.354s] -- Installing: /src/shared/install/px4_ros_extended/lib/python3.8/site-packages/src_py/ddpg_agent.py
+[146.354s] -- Installing: /src/shared/install/px4_ros_extended/lib/python3.8/site-packages/src_py/env_wrapper.py
+[146.354s] -- Installing: /src/shared/install/px4_ros_extended/lib/python3.8/site-packages/src_py/SAC
+[146.354s] -- Installing: /src/shared/install/px4_ros_extended/lib/python3.8/site-packages/src_py/SAC/sac.py
+[146.355s] -- Installing: /src/shared/install/px4_ros_extended/lib/python3.8/site-packages/src_py/test_ddpg_agent.py
+[146.355s] -- Installing: /src/shared/install/px4_ros_extended/lib/python3.8/site-packages/src_py/rewards.py
+[146.355s] -- Installing: /src/shared/install/px4_ros_extended/lib/python3.8/site-packages/src_py/DDPG
+[146.356s] -- Installing: /src/shared/install/px4_ros_extended/lib/python3.8/site-packages/src_py/DDPG/models.py
+[146.357s] -- Installing: /src/shared/install/px4_ros_extended/lib/python3.8/site-packages/src_py/DDPG/utils.py
+[146.357s] -- Installing: /src/shared/install/px4_ros_extended/lib/python3.8/site-packages/src_py/DDPG/memory.py
+[146.358s] -- Installing: /src/shared/install/px4_ros_extended/lib/python3.8/site-packages/src_py/DDPG/ddpg.py
+[146.359s] -- Installing: /src/shared/install/px4_ros_extended/lib/python3.8/site-packages/src_py/DDPG/__init__.py
+[146.359s] -- Installing: /src/shared/install/px4_ros_extended/lib/python3.8/site-packages/src_py/gazebo_runner.py
+[146.359s] -- Installing: /src/shared/install/px4_ros_extended/lib/python3.8/site-packages/src_py/__init__.py
+[146.359s] -- Installing: /src/shared/install/px4_ros_extended/lib/python3.8/site-packages/src_py/params.yaml
+[146.449s] Listing '/src/shared/install/px4_ros_extended/lib/python3.8/site-packages/src_py'...
+[146.450s] Listing '/src/shared/install/px4_ros_extended/lib/python3.8/site-packages/src_py/DDPG'...
+[146.450s] Compiling '/src/shared/install/px4_ros_extended/lib/python3.8/site-packages/src_py/DDPG/__init__.py'...
+[146.450s] Compiling '/src/shared/install/px4_ros_extended/lib/python3.8/site-packages/src_py/DDPG/ddpg.py'...
+[146.450s] Compiling '/src/shared/install/px4_ros_extended/lib/python3.8/site-packages/src_py/DDPG/memory.py'...
+[146.450s] Compiling '/src/shared/install/px4_ros_extended/lib/python3.8/site-packages/src_py/DDPG/models.py'...
+[146.450s] Compiling '/src/shared/install/px4_ros_extended/lib/python3.8/site-packages/src_py/DDPG/utils.py'...
+[146.451s] Listing '/src/shared/install/px4_ros_extended/lib/python3.8/site-packages/src_py/SAC'...
+[146.451s] Compiling '/src/shared/install/px4_ros_extended/lib/python3.8/site-packages/src_py/SAC/sac.py'...
+[146.451s] Compiling '/src/shared/install/px4_ros_extended/lib/python3.8/site-packages/src_py/__init__.py'...
+[146.451s] Compiling '/src/shared/install/px4_ros_extended/lib/python3.8/site-packages/src_py/ddpg_agent.py'...
+[146.451s] Compiling '/src/shared/install/px4_ros_extended/lib/python3.8/site-packages/src_py/env_wrapper.py'...
+[146.451s] Compiling '/src/shared/install/px4_ros_extended/lib/python3.8/site-packages/src_py/gazebo_runner.py'...
+[146.451s] Compiling '/src/shared/install/px4_ros_extended/lib/python3.8/site-packages/src_py/rewards.py'...
+[146.452s] Compiling '/src/shared/install/px4_ros_extended/lib/python3.8/site-packages/src_py/sac_agent.py'...
+[146.452s] Compiling '/src/shared/install/px4_ros_extended/lib/python3.8/site-packages/src_py/test_ddpg_agent.py'...
+[146.452s] Compiling '/src/shared/install/px4_ros_extended/lib/python3.8/site-packages/src_py/test_env_wrapper.py'...
+[146.455s] -- Installing: /src/shared/install/px4_ros_extended/lib/px4_ros_extended/env
+[146.470s] -- Set runtime path of "/src/shared/install/px4_ros_extended/lib/px4_ros_extended/env" to ""
+[146.470s] -- Installing: /src/shared/install/px4_ros_extended/lib/px4_ros_extended/baseline_prec_land
+[146.479s] -- Set runtime path of "/src/shared/install/px4_ros_extended/lib/px4_ros_extended/baseline_prec_land" to ""
+[146.479s] -- Installing: /src/shared/install/px4_ros_extended/lib/px4_ros_extended/env_wrapper.py
+[146.479s] -- Installing: /src/shared/install/px4_ros_extended/lib/px4_ros_extended/ddpg_agent.py
+[146.480s] -- Installing: /src/shared/install/px4_ros_extended/lib/px4_ros_extended/test_ddpg_agent.py
+[146.480s] -- Installing: /src/shared/install/px4_ros_extended/lib/px4_ros_extended/gazebo_runner.py
+[146.480s] -- Installing: /src/shared/install/px4_ros_extended/lib/px4_ros_extended/test_env_wrapper.py
+[146.480s] -- Installing: /src/shared/install/px4_ros_extended/share/px4_ros_extended/launch
+[146.480s] -- Installing: /src/shared/install/px4_ros_extended/share/px4_ros_extended/launch/env_train.launch.py
+[146.481s] -- Installing: /src/shared/install/px4_ros_extended/share/px4_ros_extended/launch/env.launch.py
+[146.486s] -- Installing: /src/shared/install/px4_ros_extended/share/ament_index/resource_index/package_run_dependencies/px4_ros_extended
+[146.487s] -- Installing: /src/shared/install/px4_ros_extended/share/ament_index/resource_index/parent_prefix_path/px4_ros_extended
+[146.493s] -- Installing: /src/shared/install/px4_ros_extended/share/px4_ros_extended/environment/ament_prefix_path.sh
+[146.495s] -- Installing: /src/shared/install/px4_ros_extended/share/px4_ros_extended/environment/ament_prefix_path.dsv
+[146.496s] -- Installing: /src/shared/install/px4_ros_extended/share/px4_ros_extended/environment/path.sh
+[146.497s] -- Installing: /src/shared/install/px4_ros_extended/share/px4_ros_extended/environment/path.dsv
+[146.498s] -- Installing: /src/shared/install/px4_ros_extended/share/px4_ros_extended/local_setup.bash
+[146.499s] -- Installing: /src/shared/install/px4_ros_extended/share/px4_ros_extended/local_setup.sh
+[146.500s] -- Installing: /src/shared/install/px4_ros_extended/share/px4_ros_extended/local_setup.zsh
+[146.500s] -- Installing: /src/shared/install/px4_ros_extended/share/px4_ros_extended/local_setup.dsv
+[146.501s] -- Installing: /src/shared/install/px4_ros_extended/share/px4_ros_extended/package.dsv
+[146.503s] -- Installing: /src/shared/install/px4_ros_extended/share/ament_index/resource_index/packages/px4_ros_extended
+[146.503s] -- Installing: /src/shared/install/px4_ros_extended/share/px4_ros_extended/cmake/px4_ros_extendedConfig.cmake
+[146.504s] -- Installing: /src/shared/install/px4_ros_extended/share/px4_ros_extended/cmake/px4_ros_extendedConfig-version.cmake
+[146.505s] -- Installing: /src/shared/install/px4_ros_extended/share/px4_ros_extended/package.xml
+[146.523s] Invoked command in '/src/shared/build/px4_ros_extended' returned '0': AMENT_PREFIX_PATH=/src/shared/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/src/shared/install/px4_msgs:/src/shared/ros_packages/install/px4_ros_extended:/src/shared/ros_packages/install/px4_ros_com:/src/shared/ros_packages/install/px4_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/src/shared/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/src/shared/install/px4_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/local/bin/cmake --install /src/shared/build/px4_ros_extended
